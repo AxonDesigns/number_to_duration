@@ -4,7 +4,7 @@ This Dart package offers handy functions to simplify working with durations in y
 
 ## Features
 
-This package adds the following functions:
+This package adds the following measures:
 - mcs (microseconds)
 - ms (milliseconds)
 - sec (seconds)
@@ -23,7 +23,7 @@ number_to_duration:
 
 ## Usage
 
-A simple example: 
+A basic example: 
 
 ```dart
 import 'package:number_to_duration/number_to_duration.dart';
