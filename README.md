@@ -17,8 +17,8 @@ This package adds the following functions:
 Add the package to your `pubspec.yaml`:
 ```yaml
 number_to_duration:
-    git: 
-        url: https://github.com/AxonDesigns/number_to_duration.git
+  git: 
+    url: https://github.com/AxonDesigns/number_to_duration.git
 ```
 
 ## Usage
