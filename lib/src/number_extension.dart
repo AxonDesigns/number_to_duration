@@ -1,25 +1,25 @@
 extension NumberToDuration on int {
-  Duration mcs() {
+  Duration get mcs {
     return Duration(microseconds: this);
   }
 
-  Duration ms() {
+  Duration get ms {
     return Duration(milliseconds: this);
   }
 
-  Duration sec() {
+  Duration get sec {
     return Duration(seconds: this);
   }
 
-  Duration min() {
+  Duration get min {
     return Duration(minutes: this);
   }
 
-  Duration hr() {
+  Duration get hr {
     return Duration(hours: this);
   }
 
-  Duration day() {
+  Duration get day {
     return Duration(days: this);
   }
 }

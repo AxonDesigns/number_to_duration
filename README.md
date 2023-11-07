@@ -1,39 +1,35 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# number_to_duration
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This Dart package offers handy functions to simplify working with durations in your Dart projects. Whether you need to create a new instance of `Duration` of a certain time measure, this package has you covered.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+This package adds the following functions:
+- mcs (microseconds)
+- ms (milliseconds)
+- sec (seconds)
+- min (minutes)
+- hr (hours)
+- day (days)
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the package to your `pubspec.yaml`:
+```yaml
+number_to_duration:
+    git: 
+        url: https://github.com/AxonDesigns/number_to_duration.git
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+A simple example: 
 
 ```dart
-const like = 'sample';
+import 'package:number_to_duration/number_to_duration.dart';
+
+void main(){
+    final duration = 150.ms; // Turns the given number into a duration in milliseconds
+    ...
+}
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
