@@ -1,10 +1,10 @@
 # number_to_duration
 
-This Dart package offers handy functions to simplify working with durations in your Dart projects. Whether you need to create a new instance of `Duration` of a certain time measure, this package has you covered.
+This Dart package offers handy functions to simplify working with durations in your Dart and Flutter projects. Whether you need to create a new instance of `Duration` of a certain time measure, this package has you covered.
 
 ## Features
 
-This package adds the following measures:
+Available measures:
 - mcs (microseconds)
 - ms (milliseconds)
 - sec (seconds)
@@ -23,13 +23,11 @@ number_to_duration:
 
 ## Usage
 
-A basic example: 
-
 ```dart
 import 'package:number_to_duration/number_to_duration.dart';
 
 void main(){
-    final duration = 150.ms; // Turns the given number into a duration in milliseconds
+    final duration = 150.ms; // Turns the given number into a duration in milliseconds.
     ...
 }
 ```
